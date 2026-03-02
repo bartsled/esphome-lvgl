@@ -72,7 +72,7 @@ lvgl:
         type: grid
         grid_columns: [fr(1), fr(1), fr(1)]
         grid_rows: [fr(1), fr(1), fr(1)]
-      scrollbar_mode: "on"
+      scrollbar_mode: "off"
       scroll_dir: "hor"
       width: 100%
       bg_color: Black
@@ -602,7 +602,7 @@ lvgl:
               - homeassistant.service:
                   service: light.toggle
                   data:
-                    entity_id: light.office_storage
+                    entity_id: light.kantoor
 
         # =========================================================================
         # BUTTON: Network Rack Lights
